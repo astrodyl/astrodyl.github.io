@@ -1,0 +1,115 @@
+
+html {
+    height: 100%;
+    width: 99%;
+  }
+
+body {
+    height: 80%;
+    width: 100%;
+    min-height: 80%;
+}
+
+header {
+    color: rgb(116, 116, 116);
+    font-family: 'Roboto', sans-serif;
+    font-size: 2vw;
+    text-align: center;
+    padding: 0.5em 0;
+}
+
+a {
+    color:rgb(116, 116, 116);
+    text-decoration: none;
+}
+
+a:hover {
+    color: lightgrey;
+}
+
+.circle {
+    border-radius: 50%;
+    width: 10vw;
+    height: 10vw;
+    display: inline-flex;
+    align-items: center; 
+    justify-content: center;
+    margin: auto 20px;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.name {
+    display: flex;
+    margin: 0 auto;
+}
+
+.specialties {
+    text-align: center;
+    display: flex;
+    padding: 3em 0px;
+    margin: 0 auto;
+}
+
+.specialties span {
+    color: rgb(116, 116, 116);
+    font-family: 'Roboto', sans-serif;
+    font-size: 2vw;
+}
+
+/* Animations */
+
+.grow {
+    transition: transform .2s;
+}
+  
+.grow:hover {
+    transform: scale(1.2);
+}
+
+/* Letters of my name */
+
+.letter {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 7vw;
+    font-weight: bold;
+}
+
+#first-letter { /* D */
+    background: rgb(183, 46, 240);
+}
+
+#second-letter { /* Y */
+    background: rgb(147, 196, 27);
+}
+
+#third-letter { /* L */
+    background: rgb(0, 157, 226);
+}
+
+#fourth-letter { /* A */
+    background: rgb(228, 0, 111);
+}
+
+#fifth-letter { /* N */
+    background: rgb(240, 131, 0);
+}
+
+/* Prevent users from selecting text */
+
+.noselect {
+    -webkit-touch-callout: none; /* iOS Safari */
+      -webkit-user-select: none; /* Safari */
+       -khtml-user-select: none; /* Konqueror HTML */
+         -moz-user-select: none; /* Old versions of Firefox */
+          -ms-user-select: none; /* Internet Explorer/Edge */
+              user-select: none; /* Non-prefixed version, currently
+                                    supported by Chrome, Edge, Opera and Firefox */
+  }
