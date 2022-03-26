@@ -48,6 +48,7 @@ a:hover {
 .name {
     display: flex;
     margin: 0 auto;
+    min-height: 10vw;
 }
 
 .specialties {

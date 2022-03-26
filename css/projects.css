@@ -41,6 +41,7 @@ p {
 
 p a { /* Links in project description */
     color: rgb(0, 157, 226);
+
 }
 
 .container {
@@ -54,18 +55,18 @@ p a { /* Links in project description */
 }
 
 .project {
-    width: 40vw;
-    height: 13vw;
+    border-radius: 2%;
+    width: 30vw;
+    height: 14vw;
     min-width: 700px;
     min-height: 300px;
     margin: 0.5vw auto;
     display: flex;
     max-height: 15vw;
-    background-color: rgb(256, 256, 256);
 }
 
 .tile { /* Background tile */
-    background-color: rgb(245, 245, 245);
+    background-color: rgb(240, 240, 240);
     margin: 0.5vw;
 }
 
