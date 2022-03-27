@@ -1,33 +1,4 @@
 
-html {
-    height: 100%;
-    width: 99%;
-  }
-
-body {
-    height: 80%;
-    width: 100%;
-    min-height: 80%;
-}
-
-header {
-    color: rgb(116, 116, 116);
-    background-color: white;
-    font-family: 'Roboto', sans-serif;
-    font-size: 2vw;
-    text-align: center;
-    padding: 0.5em 0;
-}
-
-a { /* Header links */
-    color:rgb(116, 116, 116);
-    text-decoration: none;
-}
-
-a:hover {
-    color: lightgrey;
-}
-
 p {
     text-align: justify;
     font-size: 18px;
@@ -52,13 +23,3 @@ h1 {
     flex-wrap: wrap;
     justify-content: center;
 }
-
-.noselect {
-    -webkit-touch-callout: none; /* iOS Safari */
-      -webkit-user-select: none; /* Safari */
-       -khtml-user-select: none; /* Konqueror HTML */
-         -moz-user-select: none; /* Old versions of Firefox */
-          -ms-user-select: none; /* Internet Explorer/Edge */
-              user-select: none; /* Non-prefixed version, currently
-                                    supported by Chrome, Edge, Opera and Firefox */
-  }
