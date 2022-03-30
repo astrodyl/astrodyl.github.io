@@ -29,7 +29,7 @@ h1 {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: left;
-    padding-bottom: 5vw;
+    padding-bottom: 10vw;
 }
 
 .extend {
