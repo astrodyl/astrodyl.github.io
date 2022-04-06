@@ -18,15 +18,18 @@ header {
     font-family: 'Roboto', sans-serif;
     font-size: 2vw;
     text-align: center;
-    padding: 0.5em 0;
+    margin: 1em 0;
 }
 
 header a {
-    color:rgb(116, 116, 116);
+    /*color:rgb(116, 116, 116);*/
+    color: black
+
 }
 
 a:hover {
-    color: lightgrey;
+    color: rgb(41, 41, 41);
+    font-weight: 1000;
 }
 
 /* Remove defaults */ 

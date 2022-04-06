@@ -1,36 +1,6 @@
 
-html {
-    height: 100%;
-    width: 99%;
-  }
-
-body {
-    height: 80%;
-    width: 100%;
-    min-height: 80%;
-}
-
-header {
-    color: rgb(116, 116, 116);
-    background-color: white;
-    font-family: 'Roboto', sans-serif;
-    font-size: 2vw;
-    text-align: center;
-    padding: 0.5em 0;
-}
-
 img {
     max-width: 40%;
-}
-
-
-a { /* Header links */
-    color:rgb(116, 116, 116);
-    text-decoration: none;
-}
-
-a:hover {
-    color: lightgrey;
 }
 
 p {
