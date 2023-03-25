@@ -20,28 +20,23 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
+  username: "Dylan Dutton",
   title: "Hey, I'm Dylan",
   subTitle: 
-    "I'm a astrophysics PhD candidate at the University of North Carolina at Chapel Hill. The goal of my research is to " + 
-    "determine how fast the universe is expanding. I'm also a part-time software engineer developing algorithms primarily " +
-    "in Python and Java."
+    "I'm a astrophysics PhD candidate at the University of North Carolina at Chapel Hill. " +
+    "I'm also a part-time software engineer developing algorithms primarily in Python and Java."
   ,
-  resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+  // resumeLink:
+  //   "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/astrodyl",
+  linkedin: "https://www.linkedin.com/in/astrodyl/",
+  gmail: "astrodyl@live.unc.edu",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -51,15 +46,12 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "SOLVING CHALLENGING PROBLEMS IN ASTRONOMY AND NATIONAL DEFENSE",
   skills: [
-    emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
-    ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
-    )
+    emoji("⚡ Develop algorithms with a focus on automation"),
+    emoji("⚡ Create open source tools tailored towards education in astronomy"),
+    emoji("⚡ Conduct original, high impact research in physics and cosmology"),
+    emoji("⚡ Continuously learning about physics, astronomy, and computer science"),
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -67,57 +59,33 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
+      skillName: "python",
+      fontAwesomeClassname: "fab fa-python"
     },
     {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
+      skillName: "java",
+      fontAwesomeClassname: "fab fa-java"
     },
+    // {
+    //   skillName: "flask",
+    //   fontAwesomeClassname: "fab fa-flask"
+    // },
+    // {
+    //   skillName: "cpp",
+    //   fontAwesomeClassname: "fab fa-c"
+    // },
     {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
+      skillName: "gitlab",
+      fontAwesomeClassname: "fab fa-gitlab"
     },
     {
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js"
     },
     {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
-    },
-    {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
       skillName: "sql-database",
       fontAwesomeClassname: "fas fa-database"
     },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
-    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -128,23 +96,35 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName: "University of North Carolina at Chapel Hill",
+      logo: require("./assets/images/uncLogo.png"),
+      subHeader: "Doctorate in Philosophy Physics",
+      duration: "August 2021 - Present",
+      desc: "Determining the expansion rate of the universe",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Using Skynet to observe electromagnetic counterparts to gravitational-wave events",
+        "Performing MCMC on on observational data to generate likely parameters and light curves",
+        "Will result in the measurement of the rate at which the universe expands"
       ]
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "University of North Carolina at Chapel Hill",
+      logo: require("./assets/images/uncLogo.png"),
+      subHeader: "Master of Science in Physics",
+      duration: "August 2019 - May 2021",
+      desc: "Developed a fully automated observing algorithm for Skynet",
+      descBullets: [
+        "Designed and developed the database, core algorithm, and user interface",
+        "Daily software development using Python, C++, SQL, and Javascript",
+      ]
+    },
+    {
+      schoolName: "University of North Carolina at Chapel Hill",
+      logo: require("./assets/images/uncLogo.png"),
+      subHeader: "Bachelor of Science in Physics",
+      duration: "August 2015 - May 2018",
+      desc: "Conducted research in astronomy for all three years",
+      descBullets: ["Robert Shelton Award for Excellence in Research"]
     }
   ]
 };
@@ -152,7 +132,7 @@ const educationInfo = {
 // Your top 3 proficient stacks/tech experience
 
 const techStack = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
+  viewSkillBars: false, //Set it to true to show Proficiency Section
   experience: [
     {
       Stack: "Frontend/Design", //Insert stack or technology you have experience in
@@ -177,28 +157,26 @@ const workExperiences = {
   experience: [
     {
       role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+      company: "Applied Research Associates",
+      companylogo: require("./assets/images/araLogo.png"),
+      date: "July 2022 – Present",
+      desc: "Working the automation of a (classified) computer vision project",
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Software Engineer",
+      company: "Skynet Robotic Telescope Network",
+      companylogo: require("./assets/images/skynetLogo.png"),
+      date: "May 2018 – August 2019",
+      desc: "Designed, developed, and deployed a fully autonomous observing routine that " +
+      "interacts with dozens of robotic telescopes around the world"
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Researcher",
+      company: "Skynet Robotic Telescope Network",
+      companylogo: require("./assets/images/skynetLogo.png"),
+      date: "May 2016 – Present",
+      desc: "Performing original research on various challenging problems in astronomy including " +
+      "image analaysis, modelling, and automated observing"
     }
   ]
 };
@@ -208,35 +186,55 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
+  title: "Projects",
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
       image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      projectName: "Campaign Manager",
+      projectDesc: "Fully autonomous observing algorithm designed to observe rapidly evolvine transient events",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
+          name: "Read paper",
+          url: "https://arxiv.org/abs/2210.08613"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
+      image: require("./assets/images/saayaHealthLogo.webp"),
+      projectName: "Radio Cartographer",
+      projectDesc: "Model astronomical radio data and generate scientifically accurate images",
+      footerLink: [
+        {
+          name: "Read paper",
+          url: "https://arxiv.org/abs/1808.06128"
+        },
+        {
+          name: "View code",
+          url: "https://github.com/SkynetRTN/radio-cartographer"
         }
         //  you can add extra buttons here.
       ]
     },
     {
       image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      projectName: "Plotting Tools for Skynet",
+      projectDesc: "Open source educational astronomy plotting tools used by thousands of students",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://nextu.se/"
+          url: "https://skynet.unc.edu/ASTR101L/graph/"
+        },
+        {
+          name: "View code",
+          url: "https://github.com/SkynetRTN/skynet-plotting"
         }
       ]
     }
@@ -302,7 +300,7 @@ const achievementSection = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
@@ -326,54 +324,53 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
 
 const talkSection = {
-  // title: "TALKS",
-  // subtitle: emoji(
-  //   "I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"
-  // ),
+  title: "TALKS",
+  subtitle: emoji(
+    "I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"
+  ),
 
-  // talks: [
-  //   {
-  //     title: "Build Actions For Google Assistant",
-  //     subtitle: "Codelab at GDG DevFest Karachi 2019",
-  //     slides_url: "https://bit.ly/saadpasta-slides",
-  //     event_url: "https://www.facebook.com/events/2339906106275053/"
-  //   }
-  // ],
-  // display: true // Set false to hide this section, defaults to true
+  talks: [
+    {
+      title: "Build Actions For Google Assistant",
+      subtitle: "Codelab at GDG DevFest Karachi 2019",
+      slides_url: "https://bit.ly/saadpasta-slides",
+      event_url: "https://www.facebook.com/events/2339906106275053/"
+    }
+  ],
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
 
 const podcastSection = {
-  // title: emoji("Podcast 🎙️"),
-  // subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
+  title: emoji("Podcast 🎙️"),
+  subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
 
-  // // Please Provide with Your Podcast embeded Link
-  // podcast: [
-  //   "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
-  // ],
-  // display: true // Set false to hide this section, defaults to true
+  // Please Provide with Your Podcast embeded Link
+  podcast: [
+    "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
+  ],
+  display: false // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
-  title: emoji("Contact Me ☎️"),
+  title: emoji("Contact Me"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  email_address: "astrodyl@live.unc.edu"
 };
 
 // Twitter Section
 
 const twitterDetails = {
-  // userName: "twitter", //Replace "twitter" with your twitter username without @
-  // display: true // Set true to display this section, defaults to false
+  userName: "twitter", //Replace "twitter" with your twitter username without @
+  display: false // Set true to display this section, defaults to false
 };
 
 const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
