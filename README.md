@@ -1,2 +1,2 @@
-# astrodyl.github.io
-My Personal Website
+# My Personal Website
+Hi! This a repo for my personal website.
